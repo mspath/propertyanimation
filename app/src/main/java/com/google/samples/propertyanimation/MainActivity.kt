@@ -33,7 +33,7 @@ import androidx.appcompat.widget.AppCompatImageView
 
 class MainActivity : AppCompatActivity() {
 
-    val TAG = "MainActivity"
+    private val TAG = "MainActivity"
 
     lateinit var star: ImageView
     lateinit var rotateButton: Button
