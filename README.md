@@ -13,10 +13,10 @@ This is the toy app for lesson 3 of the [Advanced Android with Kotlin] course on
 
 Environment
 
-- Kotlin 1.4.32
-- Android Studio 4.1.3
-- Gradle Plugin 4.1.3
+- Kotlin 1.5.21
+- Android Studio Arctic Fox 2020.3.1
+- Gradle Plugin 7.0.0
 
 ----
 
-updated: 2021-04-27
+updated: 2021-08-17
