@@ -12,9 +12,9 @@ updating to target 33 triggers some errors, so let's leave it as is.
 
 Environment
 
-- Kotlin 1.7.20
-- Android Studio Dolphin 2021.3.1
-- Gradle Plugin 7.3.1
+- Kotlin 1.8.0
+- Android Studio Electric Eel 2022.1.1
+- Gradle Plugin 7.4.2
 
 ----
 
@@ -22,5 +22,5 @@ Environment
 language: kotlin
 repo: propertyanimation
 status: archived
-updated: 2022-12-02
+updated: 2023-03-25
 ```
