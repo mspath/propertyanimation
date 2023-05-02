@@ -85,11 +85,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun ObjectAnimator.disableViewDuringAnimation(view: View) {
         addListener(object : AnimatorListenerAdapter() {
-            override fun onAnimationStart(animation: Animator?) {
+            override fun onAnimationStart(animation: Animator) {
                 view.isEnabled = false
             }
 
-            override fun onAnimationEnd(animation: Animator?) {
+            override fun onAnimationEnd(animation: Animator) {
                 view.isEnabled = true
             }
         })
@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity() {
         set.duration = (Math.random() * 1500 + 500).toLong()
 
         set.addListener(object : AnimatorListenerAdapter() {
-            override fun onAnimationEnd(animation: Animator?) {
+            override fun onAnimationEnd(animation: Animator) {
                 container.removeView(newStar)
             }
         })
